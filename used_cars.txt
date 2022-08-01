@@ -1,0 +1,19 @@
+Table name: used_cars
+
+id - BIGINT - PRIMARY_KEY(NOTNULL, UNIQUE, AUTOINCREMENT, INDEX)
+brand - VARCHAR(20) - NOTNULL - INDEX
+model - VARCHAR(30) - NOTNULL
+bodywork_color - VARCHAR(30) - NOTNULL
+version - VARCHAR(15) - NOTNULL
+car_body - VARCHAR(30) - NOTNULL
+fuel - VARCHAR(15) - NULL
+power - VARCHAR(25) - NOTNULL
+exchange_type - VARCHAR(15) - NOTNULL
+gears - TINYINT - NULL
+seating - TINYINT - NOTNULL
+dors - TINYINT - NULL
+year - YEAR - NULL
+mileage - MEDIUMINT - NULL
+description_car - TEXT - NULL
+poster - TEXT - DEFAULT(https://miosito.com/images/default_car.jpg)
+price - DECIMAL(15, 2) - NULL
